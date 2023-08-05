@@ -32,6 +32,7 @@ export default defineConfig({
         "12-materials": resolve(__dirname, "src/12-materials/src/index.html"),
         "13-3d-text": resolve(__dirname, "src/13-3d-text/src/index.html"),
         "14-go-live": resolve(__dirname, "src/14-go-live/src/index.html"),
+        "15-lights": resolve(__dirname, "src/15-lights/src/index.html"),
       },
     },
   },
