@@ -4,6 +4,9 @@ export default defineConfig({
   root: "src/",
   publicDir: "../static/",
   base: "./",
+  server: {
+    host: true,
+  },
   build: {
     outDir: "../dist",
     sourcemap: true,
@@ -33,6 +36,7 @@ export default defineConfig({
         "13-3d-text": resolve(__dirname, "src/13-3d-text/src/index.html"),
         "14-go-live": resolve(__dirname, "src/14-go-live/src/index.html"),
         "15-lights": resolve(__dirname, "src/15-lights/src/index.html"),
+        "16-shadows": resolve(__dirname, "src/16-shadows/src/index.html"),
       },
     },
   },
