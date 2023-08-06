@@ -41,6 +41,7 @@ export default defineConfig({
           __dirname,
           "src/17-haunted-house/src/index.html"
         ),
+        "18-particles": resolve(__dirname, "src/18-particles/src/index.html"),
       },
     },
   },
