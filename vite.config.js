@@ -37,6 +37,10 @@ export default defineConfig({
         "14-go-live": resolve(__dirname, "src/14-go-live/src/index.html"),
         "15-lights": resolve(__dirname, "src/15-lights/src/index.html"),
         "16-shadows": resolve(__dirname, "src/16-shadows/src/index.html"),
+        "17-haunted-house": resolve(
+          __dirname,
+          "src/17-haunted-house/src/index.html"
+        ),
       },
     },
   },
