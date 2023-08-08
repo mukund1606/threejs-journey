@@ -46,6 +46,10 @@ export default defineConfig({
           __dirname,
           "src/19-galaxy-generator/src/index.html"
         ),
+        "20-scroll-based-animation": resolve(
+          __dirname,
+          "src/20-scroll-based-animation/src/index.html"
+        ),
       },
     },
   },
