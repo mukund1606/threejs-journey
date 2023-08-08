@@ -42,6 +42,10 @@ export default defineConfig({
           "src/17-haunted-house/src/index.html"
         ),
         "18-particles": resolve(__dirname, "src/18-particles/src/index.html"),
+        "19-galaxy-generator": resolve(
+          __dirname,
+          "src/19-galaxy-generator/src/index.html"
+        ),
       },
     },
   },
