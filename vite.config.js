@@ -50,6 +50,7 @@ export default defineConfig({
           __dirname,
           "src/20-scroll-based-animation/src/index.html"
         ),
+        "21-physics": resolve(__dirname, "src/21-physics/src/index.html"),
       },
     },
   },
