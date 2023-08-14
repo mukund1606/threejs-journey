@@ -55,6 +55,10 @@ export default defineConfig({
           __dirname,
           "src/22-imported-models/src/index.html"
         ),
+        "23-raycaster-and-mouse-events": resolve(
+          __dirname,
+          "src/23-raycaster-and-mouse-events/src/index.html"
+        ),
       },
     },
   },
